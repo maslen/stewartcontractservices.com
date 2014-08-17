@@ -1,0 +1,10 @@
+div#nav_top,
+div#nav_bottom,
+div#content_top,
+div#content_bottom,
+div#secondary_content_top,
+div#secondary_content_bottom,
+div#footer_top,
+div#footer_bottom,
+div.main_column div#secondary_content_top,
+div.main_column div#secondary_content_bottom {background-image: url(../images/site_sprite.gif); font-size: 0; padding-top: 12px;}

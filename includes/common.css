@@ -1,0 +1,210 @@
+body {
+    background: #384956 url(../images/body_background.png) repeat-x; 
+    font-family: Helvetica, Arial, sans-serif; 
+    font-weight: 300;
+    margin: 0; 
+    padding-bottom: 20px;
+}
+.page_title {
+    font-family: Georgia, serif; 
+    font-size: 1.5em; 
+    font-weight: normal; 
+    line-height: 1.5;
+}
+.sub_heading {
+    font-size: 1.25em;
+    font-weight: normal;
+    font-weight: 100;
+}
+textarea {font-family: Helvetica, Arial, sans-serif;}
+a img {border: 0;}
+
+/* PAGE STRUCTURE */
+div#main {clear: both; margin: 0 auto; width: 950px}
+.main_column {clear: left; float: left; overflow: hidden; width: 698px; zoom: 1;}
+.side_column {clear: right; float: right; width: 229px;}
+.breaker {clear: both;}
+.breaker#b1 {border: 1px solid transparent;}
+
+/* HEADER */
+div#header {margin-top: 20px; overflow: hidden; zoom: 1;}
+div#header .site_title {float: left; margin: 0;}
+div#header .site_title img {display: block;}
+div#header div#splash {color: #b79f2b; float: left; margin: 26px 0 0 20px;}
+div#header .contact {
+    float: right;
+    margin-top: 26px;
+    width: 229px;
+    text-align: center;
+    text-transform: uppercase;
+}
+div#header .contact strong {
+    color: #618191;
+    display: block;
+    font-size: 1.5em;
+}
+
+/* NAV */
+div#nav {
+    background: #996;
+    border: 10px solid #fff;
+    border-radius: 10px 10px; 
+    color: #fff; 
+    font-family: Georgia, serif;
+    margin-top: 20px;
+}
+div#nav ul {overflow: hidden; margin: 0; padding: 20px 0 0 0; zoom: 1;}
+div#nav ul li {background: #996; list-style: none; margin: 0; padding: 0 20px 20px 20px;}
+div#nav ul li a {color: #fff; text-decoration: none;}
+div#nav ul li a:hover {color: #fff; text-decoration: underline;}
+div#nav ul li li {padding-right: 0;}
+div#nav ul li#products_and_services_nav {padding-bottom: 0;}
+
+#index_page .index_link,
+#tew_page .tew_link,
+#efaf_page .efaf_link,
+#tals_page .tals_link,
+#about-us_page .about-us_link,
+#client-list_page .client-list_link,
+#contact-us_page .contact-us_link {
+    color: #fc0;
+}
+
+/* MAIN CONTENT */
+div#content {
+    background: #ab8c69;
+    border: 10px solid #fff;
+    border-radius: 10px 10px;
+    color: #fff; 
+    overflow: hidden; 
+    margin-top: 20px; 
+    padding: 20px 0 1px 0; 
+    zoom: 1;
+}
+div#content .page_title {color: #222;}
+div#content a {color: #fff; text-decoration: none;}
+div#content a:hover {color: #fff; text-decoration: underline;}
+div#content p, div#content li, div#content dt, div#content dd {font-size: 0.9em; line-height: 1.75em; margin-top: 0.2em;}
+div#content img {display: block;}
+div#content .page_title,
+div#content h3,
+div#content h4,
+div#content .sub_heading,
+div#content p {margin: 0 20px 20px 20px;}
+div#content dl {
+    margin: 0 20px 20px 20px;
+    overflow: hidden;
+    zoom: 1;
+}
+div#content dt {
+    clear: left;
+    float: left;
+    width: 90px;
+}
+div#content dd {
+    float: left;
+}
+div#content h3 {clear: left;}
+div#content div.img {margin: 0 20px 20px 20px;}
+div#content div.column {float: left; width: 49%;}
+
+/* OVERLAY */
+.overlay {
+    position: relative;
+}
+div#content .overlay p {
+    background: #000;
+    background: rgba(0,0,0, 0.7);
+    bottom: 3px;
+    font-size: 1em;
+    margin-bottom: 0;
+    padding: 10px;
+    position: absolute;
+    left: 3px;
+    right: 3px;
+}
+
+/* SECONDARY CONTENT (BLUE CONTAINER) */
+div#secondary_content {
+    background: #668999; 
+    border-radius: 10px 10px;
+    border: 10px solid #fff; 
+    color: #fff; 
+    margin-top: 20px;
+    overflow: hidden; 
+    padding: 20px 0 1px 0; 
+    zoom: 1;
+}
+div#secondary_content h2 {color: #c2d8e3; margin: 0; padding: 0 20px;}
+div#secondary_content p {margin: 10px 20px 30px;}
+div#secondary_content ul {margin: 0; padding: 0;}
+div#secondary_content ul li {display: inline; float: left; font-size: 0.8em; list-style: none; margin: 10px 20px 30px; padding: 0; width: 170px;}
+div#secondary_content ul li a {color: #fff; display: block; text-align: center; text-decoration: none;}
+div#secondary_content ul li a:hover {text-decoration: underline;}
+div#secondary_content ul li a img {display: block;}
+div#secondary_content ul#clients li {margin-bottom: 0; padding-bottom: 10px;}
+
+/* FOOTER */
+div#footer {
+    border: 10px solid #fff;
+    border-radius: 10px 10px;
+    clear: both;
+    color: #fff;
+    float: left;
+    margin: 20px 0;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    zoom: 1;
+}
+div#footer h2 {padding-top: 20px;}
+div#footer h2,
+div#footer p {
+    background: #996;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+
+
+
+/* **************** */
+/* HOMEPAGE CONTENT */
+/* **************** */
+
+div#intro {
+    background: url(../images/intro.png) no-repeat; 
+    border: 0; 
+    border-radius: 10px;
+    color: #996; 
+    font-family: Georgia, serif; 
+    font-size: 1.5em; 
+    height: 214px; 
+    margin-top: 20px; 
+    text-align: center;
+}
+div#intro p {color: #618191; margin: 0; padding: 35px 0;}
+
+div#exhibitor_gallery, div#independant_text {clear: left; display: inline; float: left; width: 308px;}
+div#exhibitor_text, div#independant_gallery {clear: right; display: inline; float: right; margin: 0 20px 0 0; width: 308px;}
+div#content div#exhibitor_text *, div#content div#independant_gallery {margin-left: 0;}
+
+
+
+/* ********** */
+/* CONTACT US */
+/* ********** */
+
+body#contact_us div#content p a {color: #fff;}
+body#contact_us div#content p a:hover {text-decoration: none;}
+body#contact_us div#content form {margin-top: -20px;}
+body#contact_us div#content fieldset {border: 0; margin: 0; padding: 0;}
+body#contact_us div#content label,
+body#contact_us div#content input,
+body#contact_us div#content textarea {display: block; font-size: 0.9em; margin-top: 1em; margin-left: 60px;}
+body#contact_us div#content label {clear: left; width: 15em;}
+body#contact_us div#content input,
+body#contact_us div#content textarea {border: 1px solid #000; padding: 0.5em; width: 300px;}
+body#contact_us div#content textarea {height: 7em;}
+body#contact_us div#content input#submit {margin-bottom: 3em; width: auto;}
+body#contact_us div#products_and_services {min-height: 25em;}
